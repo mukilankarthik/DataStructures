@@ -1,3 +1,4 @@
+/*Two sum code with 3 different solutions*/
 import java.util.HashMap;
 import java.util.Map;
 
