@@ -11,7 +11,9 @@ public class TwoSum {
         que[0] = 11;
         que[1] = 5;
         que[2] = 5;
-        que[3] = 2;
+        que[3] = 0;
+        que[4] = 2;
+
         arr = solu.twoSum(que, 13);
         for (int a : arr) {
             System.out.println("Ans :: " + a);

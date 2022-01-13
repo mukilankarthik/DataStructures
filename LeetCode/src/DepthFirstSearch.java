@@ -12,16 +12,12 @@ public class DepthFirstSearch {
     }
 
     // Function to add an edge into the graph
-    void addEdge(String v, String w)
-    {
+    void addEdge(String v, String w) {
         List<String> edges;
-        if (adj.isEmpty()) {
+        if (adj.isEmpty() || null == adj.get(v)) {
             edges = new ArrayList<>();
         } else {
             edges = adj.get(v);
-            if (null == edges) {
-                edges = new ArrayList<>();
-            }
         }
         edges.add(w);
         adj.put(v, edges);
